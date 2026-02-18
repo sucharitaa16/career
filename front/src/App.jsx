@@ -9,7 +9,7 @@ import Footer from './components/homepage/Footer';
 
 // Import feature pages
 import AIResumeBuilder from './components/homepage/feature/featuresection/AIResumeBuilder';
-// Import other feature components (you'll need to create these)
+
   import ResumeAnalyser from './components/homepage/feature/featuresection/ResumeAnalyser';
 import CoverLetters from './components/homepage/feature/featuresection/CoverLetters';
 // import InterviewPrep from './components/homepage/feature/featuresection/InterviewPrep';
