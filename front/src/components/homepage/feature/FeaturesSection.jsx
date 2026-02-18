@@ -8,7 +8,7 @@ const features = [
     title: 'AI Resume Builder', 
     desc: 'Craft ATS-friendly resumes in seconds with intelligent formatting suggestions.',
     gradient: 'from-amber-400 via-orange-400 to-red-400',
-    path: '/AIResumeBuilder'  // Add path for navigation
+    path: '/AIResumeBuilder'  
   },
   { 
     icon: 'DocumentCheckIcon', 

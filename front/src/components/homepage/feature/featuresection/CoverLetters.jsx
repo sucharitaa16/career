@@ -141,7 +141,7 @@ const generateCoverLetter = async () => {
 
     console.log("Sending request to:", `${BACKEND_URL}/api/generate-cover-letter`);
 
-    // IMPORTANT: responseType সরিয়ে দিন
+    // 
     const res = await axios.post(`${BACKEND_URL}/api/generate-cover-letter`, data, {
       headers: {
         "Content-Type": "multipart/form-data",
@@ -472,7 +472,7 @@ const generateCoverLetter = async () => {
                 )}
               </AnimatePresence>
 
-              {/* Error Message - FIXED: Changed from <p> to <div> */}
+              {/* Error Message  */}
               <AnimatePresence>
                 {error && (
                   <motion.div
